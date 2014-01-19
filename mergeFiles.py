@@ -5,7 +5,7 @@ import filePaths as fp
 
 def main(argv):
     """
-    Merge files of the format "New Years Resolution_####.tsv" 
+    Merge files of the format <search_term>_####.tsv" 
     in the data_raw directory and outputs into the "merged" directory
     """
 
