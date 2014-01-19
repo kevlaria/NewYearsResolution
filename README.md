@@ -12,7 +12,8 @@ Usage: twitterTwitterStream.py <search term> <minute>
 Extracts up to 3000 tweets using <search term>, at every hour on <minute>
 (Update: this no longer works as Twitter now requires SSH when accessing the API)
 
-Harvested tweets are placed in the /data_raw directory. One file is generated per hour, in the format <search term>_HHMM.tsv , where HHMM is the starting hour and minute of the harvesting
+Harvested tweets are placed in the /data_raw directory. 
+One file is generated per hour, in the format <search term>_HHMM.tsv , where HHMM is the starting hour and minute of the harvesting
 
 - mergeFiles.py
 
