@@ -9,7 +9,7 @@ def main(argv):
     """
 
     if validate_argv(argv) is False:
-        print "Usage: tokenizeTweets.py <file name> <file directory> <start term>"
+        print "Usage: tokenizeTweets.py <file name> <file directory>"
         sys.exit()
     file_name = argv[0]
     input_directory_name = argv[1]
